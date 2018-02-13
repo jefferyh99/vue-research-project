@@ -8,11 +8,11 @@
 // import _ from 'lodash'
 
 export default {
-  name: 'HelloWorld',
+  name: 'HelloJeff',
   data () {
     // data 必须是函数
     return {
-      msg: 'Welcome to Your Vue.js App'
+      msg: 'Welcome Jeff'
     }
   }
 }
