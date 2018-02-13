@@ -1,0 +1,32 @@
+https://athena0304.gitbooks.io/vue-template-webpack-cn/content/structure.html
+
+.
+├── build/                      # webpack 配置文件
+│   └── ...
+├── config/
+│   ├── index.js                # 主要的项目配置
+│   └── ...
+├── src/
+│   ├── main.js                 # app 入口文件
+│   ├── App.vue                 # main app 组件
+│   ├── components/             # ui组件
+│   │   └── ...
+│   └── assets/                 # 模块资源（由webpack进行处理）
+│       └── ...
+├── static/                     # 纯静态资源 (直接拷贝)
+├── test/
+│   └── unit/                   # 单元测试
+│   │   ├── specs/              # 测试规格文件
+│   │   ├── index.js            # 测试构建入口文件
+│   │   └── karma.conf.js       # 测试运行器配置文件
+│   └── e2e/                    # e2e测试
+│   │   ├── specs/              # 测试规格文件
+│   │   ├── custom-assertions/  # e2e测试的自定义断言
+│   │   ├── runner.js           # 测试运行器脚本
+│   │   └── nightwatch.conf.js  # 测试运行器配置文件
+├── .babelrc                    # babel配置
+├── .postcssrc.js               # postcss 配置
+├── .eslintrc.js                # eslint 配置
+├── .editorconfig               # editor 配置
+├── index.html                  # index.html 模板
+└── package.json                # 构建脚本和依赖

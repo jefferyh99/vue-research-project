@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import HelloWorld from '@/components/HelloWorld'
+import HelloWorld from '@/components/HelloWorld' // @为src目录别名
 
 Vue.use(Router)
 

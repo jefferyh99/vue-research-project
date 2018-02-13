@@ -1,3 +1,4 @@
+// 相当于模板页
 <template>
   <div id="app">
     <img src="./assets/logo.png">
@@ -5,9 +6,10 @@
   </div>
 </template>
 
+// 这个可有可无
 <script>
 export default {
-  name: 'App'
+  name: 'App456'
 }
 </script>
 
